@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #888;
+}
+
+/* start of navbar */
+.navbar {
+    background-color: #000;
+    padding: 20px;
+
+
+}
+
+.navbar ul {
+    list-style-type: none;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    color: #444;
+
+}
+
+/* end of navbar */
+
+/* start of header */
+.header {
+    height: 50vh;
+    background: url(images/1.jpg) no-repeat;
+    background-size: cover;
+    margin: 40px;
+    border-radius: 20px;
+
+    background-position: center;
+}
+
+/* end of header */
+
+/* start of products */
+.products h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.products .pro {
+    width: 20%;
+    background: #000;
+    border-radius: 7px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.products .pro2 {
+    margin-left: 29%;
+}
+
+.products .pro3 {
+    margin-left: 53%;
+}
+
+.products .pro4 {
+    margin-left: 77%;
+}
+
+.products .pro img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.products .pro h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.products .pro p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.products .pro a {
+    display: block;
+    background-color: #fff;
+    color: #000;
+    width: 30%;
+    margin: auto;
+    padding: 10px 5px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* end of products */
